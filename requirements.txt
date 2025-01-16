@@ -1,0 +1,10 @@
+torch #==2.1.2
+torchvision #==0.16.2
+transformers==4.40.2
+sentencepiece #==0.1.99
+decord==0.6.0
+Pillow==10.1.0
+timm
+
+
+#git+https://github.com/gbvolkov/AIAssistantsLibPackage.git
