@@ -20,7 +20,7 @@ model = AutoModel.from_pretrained(
 )
 
 
-model = model.eval().cuda()
+model = model.eval() #.cuda()
 tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
 
 # In addition to vision-only mode, tts processor and vocos also needs to be initialized
